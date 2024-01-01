@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@1,700;1,900&display=swap');
+
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300; /* if you want the light version */
+  color: bisque;
+  background-color: #092635;
+}
+.container{
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.img_profile{
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+.card-white {
+  background: #1B4242;
+  padding: 30px;
+  border: 0px solid rgb(203, 189, 189);
+  border-radius: 10px;
+}
+li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.card{
+  margin: 0 auto;
+  margin-top: 15px;
+  padding: 0 ;
+  box-shadow: 2px 2px 7px #5C8374;
+}
+
+.card ul{
+  padding: 0;
+}
+
+.button{
+ text-decoration: none;
+ padding: 20px 10px;
+ margin-bottom: 15px;
+ display: inline-block;
+ border-radius: 5px;
+ color: blanchedalmond;
+ background-color: #9EC8B9;
+}
+
+.button:hover {
+
+background-color: rgb(253, 253, 253);
+color: rgb(35, 22, 22);
+
+}
